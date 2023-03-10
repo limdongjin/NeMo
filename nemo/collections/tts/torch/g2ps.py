@@ -16,5 +16,5 @@
 #  import path. We will remove this file soon; `IPAG2P` will be also renamed as `IpaG2p`. Please start using new import
 #  path and the new `IpaG2p` name from r1.16.0.
 from nemo.collections.common.g2p.en_us_arpabet import EnglishG2p
-from nemo.collections.common.g2p.zh_cn_pinyin import ChineseG2p
 from nemo.collections.common.g2p.i18n_ipa import IpaG2p as IPAG2P
+from nemo.collections.common.g2p.zh_cn_pinyin import ChineseG2p
